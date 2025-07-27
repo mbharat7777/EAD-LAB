@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback Form</title>
+    </head>
+    <body>
+        <form style="text-align: center;" action="Ex3.html" method="post">
+            <h1 style="text-align: center;">Feedback Form</h1>
+            <table style="margin-left: auto; margin-right: auto;">
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="feedback">Feedback:</label></td>
+                    <td><textarea id="feedback" name="feedback" rows="4" cols="50"
+                        ></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="Satisfaction">How Satisfied are you:</label></td>
+                    <td>
+                        <input type="radio" id="satisfied" name="Satisfaction" value="satisfied">
+                        <label for="satisfied">Satisfied</label>
+                        <input type="radio" id="neutral" name="Satisfaction" value="neutral">
+                        <label for="neutral">Neutral</label>
+                        <input type="radio" id="dissatisfied" name="Satisfaction" value="dissatisfied">
+                        <label for="dissatisfied">Dissatisfied</label>
+                    </td>
+               
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit Feedback"></td>
+                </tr>
+            </table>    
+        </form>
+
+</html>
